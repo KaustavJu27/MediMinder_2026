@@ -32,9 +32,18 @@ connectDB();
 const app = express();
 
 //app.use(cors());
+// app.use(
+//   cors({
+//     origin: "http://localhost:8080",
+//     credentials: true,
+//   })
+// );
 app.use(
   cors({
-    origin: "http://localhost:8080",
+    origin: [
+      "http://localhost:8080",
+      "https://medi-minder-frontend.kaustav709.workers.dev",
+    ],
     credentials: true,
   })
 );
