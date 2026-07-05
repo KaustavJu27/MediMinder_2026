@@ -1,11 +1,21 @@
+// import axios from "axios";
+
+// // Axios instance for backend API integration.
+// // Replace baseURL with your backend URL when connecting.
+// export const api = axios.create({
+//  // baseURL: "/api",
+//  baseURL: "https://mediminder-2026.onrender.com/api",
+//   headers: { "Content-Type": "application/json" },
+// });
 import axios from "axios";
 
-// Axios instance for backend API integration.
-// Replace baseURL with your backend URL when connecting.
 export const api = axios.create({
- // baseURL: "/api",
- baseURL: "http://localhost:5000/api",
-  headers: { "Content-Type": "application/json" },
+  baseURL:
+    import.meta.env.VITE_API_URL ||
+    "https://mediminder-2026.onrender.com/api",
+  headers: {
+    "Content-Type": "application/json",
+  },
 });
 
 api.interceptors.request.use((config) => {
