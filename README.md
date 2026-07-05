@@ -8,15 +8,20 @@ A modern **full-stack medicine management platform** that helps users securely m
 
 ## 📸 Preview
 
-> *(Add screenshots here after taking them.)*
+> <img width="1887" height="908" alt="image" src="https://github.com/user-attachments/assets/51156a89-da2e-4dd8-a85f-66ebc972d80b" />
+
 
 | Login | Dashboard |
 |-------|-----------|
-| Add Screenshot | Add Screenshot |
+| <img width="1786" height="655" alt="image" src="https://github.com/user-attachments/assets/85e872aa-279c-418e-94ef-9b4b0b070aa5" />
+ | <img width="1911" height="846" alt="image" src="https://github.com/user-attachments/assets/ad54b2d9-2a96-4429-9b3c-8041f139f227" />
 
-| Medicines | Notifications |
-|------------|---------------|
-| Add Screenshot | Add Screenshot |
+ |
+
+| Medicines | 
+|------------|
+| <img width="1911" height="537" alt="image" src="https://github.com/user-attachments/assets/29ee14d5-7d3d-40de-bbf7-4a1e127d2c97" />
+
 
 ---
 
